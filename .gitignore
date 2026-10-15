@@ -1,0 +1,10 @@
+# Locally installed CLI tools (gh, uv) — third-party binaries, not committed.
+# See tools/README.md for versions, checksums, and how to reinstall.
+tools/*
+!tools/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+# note: uv.lock is intentionally NOT ignored — commit it for reproducible builds
